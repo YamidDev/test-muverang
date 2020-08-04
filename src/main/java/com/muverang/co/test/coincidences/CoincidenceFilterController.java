@@ -12,9 +12,9 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/coincidences")
-public class CoincidenceFilter {
+public class CoincidenceFilterController {
     
-    private static final Logger log = LoggerFactory.getLogger(CoincidenceFilter.class);
+    private static final Logger log = LoggerFactory.getLogger(CoincidenceFilterController.class);
 
     @Autowired
     private CoincidenceFilterService service;
