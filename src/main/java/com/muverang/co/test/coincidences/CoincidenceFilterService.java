@@ -20,8 +20,7 @@ public class CoincidenceFilterService {
         String line;
 
         while ((line = reader.readLine()) != null) {
-            /*String[] words = line.split("\\s+");*/
-            String[] words = Arrays.stream(line.split("[!¡¿?.,:;()'\"]+"))
+            String[] words = Arrays.stream(line.split("[!¡¿?.,:;()´'\"]+"))
                     .collect(Collectors.joining(" ")).split("\\s+");
             for (String w: words) {
                 String word = w.toLowerCase();
