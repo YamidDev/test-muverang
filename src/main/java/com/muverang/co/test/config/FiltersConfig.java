@@ -1,4 +1,4 @@
-package com.muverang.co.test.util;
+package com.muverang.co.test.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
